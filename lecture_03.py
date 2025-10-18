@@ -77,30 +77,3 @@ exponentiation =3 ** 3
 # Average expense per member: 17250.0
 # Saving per member: 17750.0
 # Percentage of savings: 50.71%
-
-father_income = float(input("Enter father's income: "))
-mother_income = float(input("Enter mother's income: "))
-side_business_income = float(input("Enter side business income: "))
-other_income = float(input("Enter other income: "))
-total_income = father_income + mother_income + side_business_income + other_income
-house_rent = float(input("Enter house rent: "))
-utilities = float(input("Enter utilities: "))
-groceries = float(input("Enter groceries: "))
-transport = float(input("Enter transport: "))
-education = float(input("Enter education: "))
-entertainment = float(input("Enter entertainment: "))
-miscellaneous = float(input("Enter miscellaneous: "))
-total_expenses = house_rent + utilities + groceries + transport + education + entertainment + miscellaneous
-monthly_savings = total_income - total_expenses
-total_members = int(input("Enter total family members: "))
-average_income_per_member = total_income / total_members
-average_expense_per_member = total_expenses / total_members
-saving_per_member = monthly_savings / total_members
-percentage_of_savings = (monthly_savings / total_income) * 100
-print (f"Total income: {total_income}")
-print (f"Total expenses: {total_expenses}")
-print (f"Monthly savings: {monthly_savings}")
-print (f"Average income per member: {average_income_per_member}")
-print (f"Average expense per member: {average_expense_per_member}")
-print (f"Saving per member: {saving_per_member}")
-print (f"Percentage of savings: {percentage_of_savings:.2f}%")
